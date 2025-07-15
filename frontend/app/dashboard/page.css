@@ -1,0 +1,82 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 1114px;
+
+}
+
+.left {
+    width: 545px;
+    height: 213px;
+    border-radius: 24px;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.total {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+}
+
+.left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ADF151;
+}
+
+
+
+.left_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.percent {
+    color: #2ECC71;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrow_icon {
+    height: 20px;
+    width: 20px;
+    color: #2ECC71;
+}
+
+
+
+.right {
+    width: 545px;
+    height: 213px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-content: center;
+    gap: 8px;
+
+}
+

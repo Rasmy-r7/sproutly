@@ -1,0 +1,62 @@
+.pageheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 1114px;
+    border-radius: 59px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 16px 32px;
+}
+
+.elementName p {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.right_element {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.right_element button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ADF151;
+    color: black;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.svgimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 58px;
+    height: 48px;
+    width: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.svgimg svg {
+    height: 24px;
+    width: 24px;
+    color: white;
+}
