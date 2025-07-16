@@ -4,7 +4,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-      <PageHeader title="Map Tree" />
+      <PageHeader title="Governance (DAO)" />
     </div>
   )
 }

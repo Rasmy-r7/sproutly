@@ -1,12 +1,12 @@
 import PageHeader from '@/components/pageHeader/PageHeader'
 import React from 'react'
 
-function Page() {
+function page() {
   return (
     <div>
-      <PageHeader title="Tokens"/>
+      <PageHeader title="Referral Program" />
     </div>
   )
 }
 
-export default Page
+export default page

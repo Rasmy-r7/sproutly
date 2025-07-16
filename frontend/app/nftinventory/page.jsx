@@ -1,12 +1,13 @@
 import PageHeader from '@/components/pageHeader/PageHeader'
 import React from 'react'
 
-function page() {
+function Page() {
   return (
     <div>
-      <PageHeader title="Exchange" />
+      <PageHeader title="NFT Inventory"/>
+      
     </div>
   )
 }
 
-export default page
+export default Page

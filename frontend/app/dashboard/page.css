@@ -11,6 +11,7 @@
     justify-content: space-between;
     text-align: center;
     width: 1114px;
+    gap: 8px;
 
 }
 
@@ -19,19 +20,21 @@
     height: 213px;
     border-radius: 24px;
     padding: 32px;
-    background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.101);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 
 }
 
 .total {
     font-size: 14px;
     font-weight: 400;
-    color: #FFFFFFCC;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .left h1 {
@@ -49,6 +52,8 @@
     gap: 5px;
     font-size: 14px;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+
 }
 
 .percent {
@@ -71,12 +76,280 @@
     height: 213px;
     border-radius: 24px;
     padding: 24px;
-    background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     display: flex;
-    align-content: center;
-    gap: 8px;
+    align-items: center;
+    gap: 4px;
 
 }
 
+.cart_right_img {
+    flex-shrink: 0;
+    width: auto;
+    height: 165px;
+    object-fit: contain;
+}
+
+.right_to_right {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tier_label {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tier_name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFFCC;
+}
+
+.tier_goal {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.progress_bar_container {
+    width: 320px;
+    height: 4px;
+    background-color: #414442;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 8px 0;
+}
+
+.progress_bar_fill {
+    height: 100%;
+    background-color: #ADF151;
+    border-radius: 8px 0 0 8px;
+    transition: width 0.3s ease-in-out;
+}
+
+.plant_tree {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ADF151;
+}
+
+.plant_tree p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.plant_btn {
+    background-color: rgba(255, 255, 255, 0.223);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    color: #FFFFFFCC;
+    height: 36px;
+    width: 195px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 33px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+/* card-container */
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    width: 1114px;
+}
+
+.cards_map {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    width: 260.5px;
+    height: 136px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card_title {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.card_value {
+    font-size: 32px;
+    font-weight: 700;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.value_span {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.card_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    gap: 4px;
+}
+
+.card_footer p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+/* certification_grap */
+
+.certification_graph {
+    display: flex;
+    gap: 24px;
+    width: 1096.5px;
+    height: 358px;
+}
+
+.certification {
+    width: 260.5px;
+    height: 358px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    border-radius: 24px;
+    padding: 24px;
+
+}
+
+.latest {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 21px;
+}
+
+.certification_cart {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.certification_img {
+    border-radius: 50%;
+}
+
+.certification_right {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.verification {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 24px;
+}
+
+.number {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.issued {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ready {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+}
+
+.certifications_btn {
+    background-color: rgba(255, 255, 255, 0.223);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    color: #FFFFFFCC;
+    height: 36px;
+    width: 212.5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 33px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 45px;
+
+}
+
+.graph {
+    width: 812px;
+    height: 358px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.graph_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.market {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.market_value {
+    color: rgba(173, 241, 81, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+.recharts-area-area {
+  filter: blur(4px);
+}

@@ -4,7 +4,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <PageHeader title="CO2 Pools"/>
+      <PageHeader title="CO2 Management"/>
       
     </div>
   )

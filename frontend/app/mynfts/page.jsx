@@ -4,7 +4,7 @@ import React from 'react'
 function Page() {
   return (
     <div>
-      <PageHeader title="My NFTs"/>
+      <PageHeader title="NFTree Cultivation"/>
     </div>
   )
 }
