@@ -24,7 +24,7 @@ const sidebarFallback = [
     { name: "Staking", icon: FaHandHolding, href: "/staking" },
     { name: "Market Place", icon: IoBagHandle, href: "/marketplace" },
     { name: "Governance (DAO)", icon: PiGavelFill, href: "/governance" },
-    { name: "CO2 Management", icon: MdCo2, href: "/copools" },
+    { name: "CO₂ Management", icon: MdCo2, href: "/copools" },
     { name: "Referral Program", icon: IoGift, href: "/referralprogram" },
     { name: "Leaderboard", icon: BsBarChartFill, href: "/leaderboard" },
     { name: "Game hub", icon: IoGameController, href: "/gamehub" },
