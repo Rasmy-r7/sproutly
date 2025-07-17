@@ -60,7 +60,7 @@
 }
 
 .nftinventory_cart_bottom {
-    height: 790.3px;
+    /* height: 790.3px; */
     width: 1114px;
     padding: 16px;
     border-radius: 24px;
@@ -73,14 +73,14 @@
     gap: 16px;
 }
 
-.filter_search {
+.nftfilter_search {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
-.filter {
+.nftfilter {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -96,11 +96,11 @@
 
 }
 
-.search {
+.nftsearch {
     position: relative;
 }
 
-.search input {
+.nftsearch input {
     width: 297px;
     height: 37px;
     padding: 8px 16px;
@@ -112,7 +112,7 @@
     outline: none;
 }
 
-.search input::placeholder {
+.nftsearch input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 

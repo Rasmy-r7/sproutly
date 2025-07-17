@@ -65,7 +65,7 @@ const chartData = [
 function Page() {
   return (
     <div className='dashboard'>
-      <PageHeader title="Dashboard" />
+      <PageHeader title="Dashboard" showSearch={false} />
       <div className='cart'>
         <div className='left'>
           <p className='total'>Total Sproutly Portfolio</p>
@@ -113,7 +113,7 @@ function Page() {
           <div className="cards_map" key={index}>
             <p className="card_title">{card.title}</p>
             <p className="card_value">
-              {card.value} {card.span1 && <span1 className='value_span'>{card.span1}</span1>}
+              {card.value} {card.span1 && <span className='value_span'>{card.span1}</span>}
             </p>
 
             <div className="card_footer">

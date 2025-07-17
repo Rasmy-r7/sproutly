@@ -155,19 +155,19 @@ const nftData = [
 function Page() {
   return (
     <div className='main_nftinventory_cart'>
-      <PageHeader title="NFT Inventory" />
+      <PageHeader title="NFT Inventory" showSearch={false} />
       <div className='nftinventory_cart'>
         {inventoryData.map((item, index) => (
           <div className='inventory_cart' key={index}>
             <p className='icon_label'><span className='inventory_icon'>
-             {item.img && <Image
+              {item.img && <Image
                 src={item.img}
                 alt="nftinventory"
                 width={20}
                 height={20}
                 className=""
               />}
-              </span>{item.label}</p>
+            </span>{item.label}</p>
             <p className='inventory_number'>
               {item.value} {item.unit && <span className='inventory_unit'>{item.unit}</span>}
             </p>
@@ -177,14 +177,14 @@ function Page() {
 
       <div className='nftinventory_cart_bottom'>
 
-        <div className='filter_search'>
-          <div className='filter'>
+        <div className='nftfilter_search'>
+          <div className='nftfilter'>
             <button className='filter_btn'>All</button>
             <button className='filter_btn'>NFTree</button>
             <button className='filter_btn'>Sapling</button>
             <button className='filter_btn'>Plot</button>
           </div>
-          <div className="search">
+          <div className="nftsearch">
             <input type="text" placeholder='Search Box' />
             <CiSearch className='search_icon' />
 
