@@ -67,7 +67,7 @@ function Page() {
     <div className='dashboard'>
       <PageHeader title="Dashboard" showSearch={false} />
       <div className='cart'>
-        <div className='left'>
+        <div className='left glass_card'>
           <p className='total'>Total Sproutly Portfolio</p>
           <h1>$28,543.78</h1>
           <div className='left_bottom'>
@@ -78,7 +78,7 @@ function Page() {
           </div>
 
         </div>
-        <div className='right'>
+        <div className='right glass_card'>
           <Image
             src="/images/cart_right.png"
             alt="Profile"
@@ -101,7 +101,7 @@ function Page() {
               <p>Plant 1,000 Trees</p>
             </div>
 
-            <button className="plant_btn">View All Achievements</button>
+            <button className="plant_btn glass_card">View All Achievements</button>
           </div>
 
         </div>
@@ -110,15 +110,13 @@ function Page() {
 
       <div className="card-container">
         {dashboardCards.map((card, index) => (
-          <div className="cards_map" key={index}>
+          <div className="cards_map glass_card" key={index}>
             <p className="card_title">{card.title}</p>
             <p className="card_value">
               {card.value} {card.span1 && <span className='value_span'>{card.span1}</span>}
             </p>
 
             <div className="card_footer">
-
-
               {card.change1 && (
                 <p style={{ color: "rgba(239, 83, 80, 1)" }}>
                   {card.icon1 && <span style={{ fontSize: "18px" }}>{card.icon1}</span>}
@@ -149,7 +147,7 @@ function Page() {
       </div>
 
       <div className='certification_graph'>
-        <div className='certification'>
+        <div className='certification glass_card'>
           <p className='latest'>Latest Certification</p>
           <div className=''>
             <div className='certification_cart'>
@@ -182,12 +180,12 @@ function Page() {
             </div>
           </div>
           <p className='ready'><span style={{ color: "rgba(46, 204, 113, 1)" }}>3 certificates</span> ready to generate!</p>
-          <button className='certifications_btn'>
+          <button className='certifications_btn glass_card'>
             View all 58 Certifications
           </button>
 
         </div>
-        <div className='graph'>
+        <div className='graph123 glass_card'>
           <div className='graph_heading'>
             <p className='market'>Market & Token Trends</p>
             <p className='market_value'>1 CBY = $0.25</p>
@@ -225,7 +223,6 @@ function Page() {
                   itemStyle={{ color: "#e5e7eb" }}
                 />
 
-                {/* ✅ Shadow glow area */}
                 <Area
                   type="monotone"
                   dataKey="sales"
@@ -234,7 +231,6 @@ function Page() {
                   fillOpacity={1}
                 />
 
-                {/* ✅ Main line */}
                 <Line
                   type="monotone"
                   dataKey="sales"

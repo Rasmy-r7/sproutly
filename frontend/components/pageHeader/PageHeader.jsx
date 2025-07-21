@@ -13,7 +13,7 @@ function PageHeader({
     buttonIcon = <RiFolderOpenFill />,
 }) {
     return (
-        <div className='pageheader'>
+        <div className='pageheader glass_card'>
             <div className='elementName'>
                 <p>{title}</p>
             </div>

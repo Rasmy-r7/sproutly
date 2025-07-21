@@ -1,0 +1,669 @@
+.copools_main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.certificates {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 362px;
+    width: 1114px;
+}
+
+.mint_carbon {
+    width: 414px;
+    height: 362px;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mint_carbon_title {
+    font-size: 23.5px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28.8px;
+}
+
+.mint_carbon_description {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 21px;
+}
+
+.available_label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 18px;
+}
+
+
+.available_value {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(173, 241, 81, 1);
+    line-height: 36.8px;
+}
+
+.mint_carbon_burn {
+    padding: 4px 16px;
+    height: 96px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.burn_amount {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 21px;
+}
+
+.mint_carbon_input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.mint_carbon_input input {
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 33px;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+    width: 223px;
+    height: 37px;
+    flex: 1;
+}
+
+/* .mint_carbon_input input:focus {
+  border-color: #4caf50; 
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+} */
+
+.mint_carbon_input button {
+    padding: 10px 16px;
+    width: 87px;
+    height: 36px;
+    background-color: rgba(173, 241, 81, 1);
+    color: rgba(35, 48, 16, 1);
+    border: none;
+    border-radius: 51px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.burn_info {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    line-height: 14px;
+}
+
+
+/* your_recent */
+.your_recent {
+    height: 362px;
+    width: 676px;
+    border-radius: 16px;
+    padding: 24px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.your_recent::-webkit-scrollbar {
+    display: none;
+}
+
+
+.recent_certificates {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent_certificates_title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.recent_certificates_icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.certificates_icon_wrapper {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* table */
+.recent_certificate_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 14px;
+
+}
+
+
+.recent_certificate_table thead {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+    height: 34px;
+
+
+}
+
+.certification_name_cell {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.certification_table_img {
+    border-radius: 50%;
+}
+
+.action_icon {
+    margin-left: 10px;
+    height: 16px;
+    width: 16px;
+}
+
+
+.recent_certificate_table th {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 8px 16px;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+.recent_certificate_table tr {
+    padding: 8px 16px;
+
+}
+
+.recent_certificate_table td {
+    font-size: 14px;
+    padding: 8px 16px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    vertical-align: middle;
+
+}
+
+
+
+/*carbon_cart_tokens  */
+.carbon_cart_tokens {
+    display: flex;
+    gap: 24px;
+    height: 591px;
+    width: 1114px;
+}
+
+/* left */
+/* Container */
+.carbon_calculator {
+    width: 415px;
+    max-width: 591px;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Header */
+.calculator_header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.calculator_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.calculator_subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Activity Section */
+.calculator_activity {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.activity_label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.activity_select {
+    width: 100%;
+    height: 37px;
+    padding: 8px 16px;
+    border-radius: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    background: transparent;
+    color: white;
+}
+
+/* Flight Details */
+.calculator_flight_details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.flight_details_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.trip_type_options {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.trip_option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.trip_option_label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Input Groups */
+.flight_input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 62px;
+}
+
+.flight_input_label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.flight_input_select {
+    width: 100%;
+    height: 37px;
+    padding: 8px 16px;
+    border-radius: 33px;
+    border: none;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Button */
+.calculate_button {
+    padding: 12px 16px;
+    border: none;
+    width: 205px;
+    height: 44px;
+    border-radius: 51px;
+    background-color: rgba(173, 241, 81, 1);
+    color: rgba(35, 48, 16, 1);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+/* Result */
+.calculator_result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 94px;
+}
+
+.result_title {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+.result_display {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.result_value {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(173, 241, 81, 1);
+}
+
+.result_unit {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* cart_token_right */
+
+.cart_token_right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 675px;
+}
+
+.co_management_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.co_card {
+    border-radius: 16px;
+    padding: 16px;
+    width: 209px;
+    height: 104px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.co_card_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.co_card_value {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.co_card_value_span {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 4px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.co_card_changes {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.co_card_change_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.co_card_change {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.co_card_change.down {
+    color: rgba(239, 83, 80, 1);
+}
+
+.co_card_change.up {
+    color: rgba(46, 204, 113, 1);
+}
+
+.co_card_icon {
+    font-size: 16px;
+}
+
+.co_card_note {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+/* right down */
+
+.trade_container {
+    width: 675px;
+    height: 373px;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Header */
+.trade_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    height: 75px;
+}
+
+.trade_text {
+    width: 431px;
+}
+
+.trade_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.trade_subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.trade_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: transparent;
+    width: 148px;
+    padding: 4px;
+    border-radius: 44px;
+    gap: 4px;
+}
+
+.trade_button {
+    padding: 4px 8px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    height: 28px;
+    width: 70px;
+}
+
+.trade_button.active {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(35, 48, 16, 1);
+}
+
+
+/* .trade_button:hover {
+    background-color: ;
+} */
+
+/* Section Title */
+.trade_section_title p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Trade form */
+.trade_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 577px;
+    height: 94px;
+}
+
+.trade_input_group {
+    width: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    display: flex;
+    padding: 16px;
+    border-radius: 16px;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.trade_input_label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.highlight_text {
+    color: rgba(173, 241, 81, 1);
+}
+
+.trade_input_box {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.trade_input {
+    width: 157px;
+    height: 37px;
+    padding: 8px 16px;
+    border-radius: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.unit_label {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+}
+
+/* Switch icon */
+.trade_switch_icon {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgba(173, 241, 81, 1);
+}
+
+/* Output value */
+.trade_output {
+    width: 250px;
+    height: 94px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.trade_output_value {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.trade_output_value_span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.trade_submit {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.submit_button {
+    padding: 12px 16px;
+    background-color: rgba(173, 241, 81, 1);
+    color: rgba(35, 48, 16, 1);
+    border: none;
+    border-radius: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 205px;
+    height: 44px;
+}

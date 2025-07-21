@@ -3,6 +3,19 @@
   --foreground: #171717;
 }
 
+/* .glass_card {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+} */
+.glass_card {
+  background-color: rgba(137, 137, 137, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+}
+
 .backgroundImg {
   background-image: url('/images/bg1.jpg');
   background-size: cover;

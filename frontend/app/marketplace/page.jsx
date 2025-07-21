@@ -155,7 +155,7 @@ function page() {
         buttonIcon={<FiPlus />}
         showSearch={true}
       />
-      <div className='marketplace'>
+      <div className='marketplace glass_card'>
         <div className='featured_trending'>
           <p>Featured & Trending</p>
           <div className='featured_trending_icon'>
@@ -212,7 +212,7 @@ function page() {
 
       {/* filter featured_trending_cart  */}
       <div className='filter_featured_trending_cart'>
-        <div className='filter_featured_trending_cart_main'>
+        <div className='filter_featured_trending_cart_main glass_card'>
           <div className='sortby_filter'>
             <div className='sortby_head'>
               <label htmlFor="" className='label'>Sort by :</label>
@@ -274,7 +274,7 @@ function page() {
           </div>
         </div>
 
-        <div className='marketfilter'>
+        <div className='marketfilter glass_card'>
           <div className='filter_rest'>
             <p className='numfilter'>Filters (2)</p>
             <p className='numreset'>reset</p>

@@ -158,7 +158,7 @@ function Page() {
       <PageHeader title="NFT Inventory" showSearch={false} />
       <div className='nftinventory_cart'>
         {inventoryData.map((item, index) => (
-          <div className='inventory_cart' key={index}>
+          <div className='inventory_cart glass_card' key={index}>
             <p className='icon_label'><span className='inventory_icon'>
               {item.img && <Image
                 src={item.img}
@@ -175,7 +175,7 @@ function Page() {
         ))}
       </div>
 
-      <div className='nftinventory_cart_bottom'>
+      <div className='nftinventory_cart_bottom glass_card'>
 
         <div className='nftfilter_search'>
           <div className='nftfilter'>
@@ -241,7 +241,7 @@ function Page() {
                   >
                     {item.stakeText}
                   </button>
-                  <button className='date_btn'>
+                  <button className='date_btn glass_card'>
                     <IoCalendarClearSharp />
                     {item.date}
                   </button>

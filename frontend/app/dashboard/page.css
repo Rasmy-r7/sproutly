@@ -20,10 +20,6 @@
     height: 213px;
     border-radius: 24px;
     padding: 32px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.101);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,10 +72,6 @@
     height: 213px;
     border-radius: 24px;
     padding: 24px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     display: flex;
     align-items: center;
     gap: 4px;
@@ -149,10 +141,6 @@
 }
 
 .plant_btn {
-    background-color: rgba(255, 255, 255, 0.223);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     color: #FFFFFFCC;
     height: 36px;
     width: 195px;
@@ -177,10 +165,6 @@
 }
 
 .cards_map {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     width: 260.5px;
     height: 136px;
     border-radius: 24px;
@@ -239,10 +223,6 @@
 .certification {
     width: 260.5px;
     height: 358px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     border-radius: 24px;
     padding: 24px;
 
@@ -300,10 +280,6 @@
 }
 
 .certifications_btn {
-    background-color: rgba(255, 255, 255, 0.223);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     color: #FFFFFFCC;
     height: 36px;
     width: 212.5px;
@@ -317,13 +293,9 @@
 
 }
 
-.graph {
+.graph123 {
     width: 812px;
     height: 358px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     border-radius: 24px;
     padding: 24px;
     display: flex;

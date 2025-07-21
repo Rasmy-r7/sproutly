@@ -1,9 +1,6 @@
 .sidebar {
   height: 100%; 
   width: 263px;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   padding: 32px 24px;

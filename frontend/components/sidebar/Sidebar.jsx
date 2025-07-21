@@ -39,7 +39,7 @@ function Sidebar() {
     // }, []);
 
     return (
-        <div className="sidebar">
+        <div className="sidebar glass_card">
             <nav className="sidebar_nav">
                 <div className='sidebar_header'>
                     <Image

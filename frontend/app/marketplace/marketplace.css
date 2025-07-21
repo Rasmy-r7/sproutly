@@ -7,10 +7,6 @@
 .marketplace {
     height: 424.6px;
     width: 1114px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     padding: 16px;
     border-radius: 8px;
     display: flex;
@@ -158,9 +154,7 @@
 }
 
 .filter_featured_trending_cart_main {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -279,10 +273,6 @@
 
 .marketfilter {
     width: 276px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     border-radius: 8px;
     padding: 16px;
     display: flex;
