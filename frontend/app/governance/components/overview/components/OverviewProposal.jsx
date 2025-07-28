@@ -40,6 +40,9 @@ const proposals = [
 function OverviewProposal() {
     return (
         <>
+            <div>
+                <p className='active_voting_p'>Active Voting Proposals</p>
+            </div>
             {proposals.map((proposal, index) => (
                 <div className='glass_card proposal_card' key={index}>
                     {/* Right Content */}

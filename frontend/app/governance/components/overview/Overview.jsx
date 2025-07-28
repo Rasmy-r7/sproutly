@@ -11,7 +11,6 @@ function Overview() {
     <div className='overview'>
       <OverviewCards />
       <GovernanceSection />
-      <p className=''>Active Voting Proposals</p>
       <OverviewProposal />
 
 

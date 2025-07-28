@@ -376,7 +376,6 @@
 
 }
 
-
 .like_btn {
     border: 1px solid var(--GreenSecondary-100);
     color: var(--GreenSecondary-100);
@@ -385,4 +384,11 @@
 .dislike_btn {
     border: 1px solid var(--error-color);
     color: var(--error-color);
+}
+
+
+.active_voting_p{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-100);
 }

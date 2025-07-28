@@ -8,7 +8,7 @@ import Treasury from './components/treasury/Treasury';
 import Proposals from './components/proposals/Proposals';
 
 function page() {
-  const [activeBtn, setActiveBtn] = useState("Overview")
+  const [activeBtn, setActiveBtn] = useState("Treasury")
 
   const renderActivePage = () => {
     switch (activeBtn) {

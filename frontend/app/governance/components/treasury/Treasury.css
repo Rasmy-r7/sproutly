@@ -1,0 +1,225 @@
+/* Main container */
+.treasury {
+    width: 1114px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.treasury_heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white-100);
+}
+
+.treasury_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    height: 90px;
+}
+
+.treasury_card {
+    flex: 1;
+    width: 355.3px;
+    height: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.treasury_label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+.treasury_value {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.treasury_unit {
+    font-size: 12px;
+    color: var(--white-80);
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+
+/* treasury_assets_section */
+
+
+.treasury_assets_section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.treasury_assets_heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+/* 4-column grid layout */
+.treasury_assets_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+/* Card styling */
+.asset_card {
+    border-radius: 8px;
+    border: 1px solid var(--border-09);
+    background: transparent;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 258.5px;
+    height: 74px;
+}
+
+.asset_image {
+    border-radius: 12px 0px 0px 12px;
+}
+
+.asset_info {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 16px;
+}
+
+.asset_title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white-100);
+}
+
+.asset_rarity {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white-60);
+}
+
+
+
+
+/* transaction_history */
+
+.transaction_history {
+    width: 100%;
+    height: 534px;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.transaction_heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+/* Controls section */
+.transaction_controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.search_box {
+    position: relative;
+    width: 250px;
+}
+
+.search_input {
+    width: 297px;
+    height: 37px;
+    padding: 8px 16px;
+    border: 1px solid var(--border-50);
+    background: transparent;
+    border-radius: 33px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search_icon {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white-80);
+    pointer-events: none;
+}
+
+
+/* Dropdown filters */
+.filter_controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter_select {
+    padding: 8px 16px;
+    border-radius: 33px;
+    border: 1px solid var(--border-09);
+    outline: none;
+    background: transparent;
+}
+
+/* Table styling */
+.transaction_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+/* .transaction_table thead {
+    background-color: rgba(0, 0, 0, 0.05);
+} */
+.transaction_table thead tr {
+    border-top: 1px solid var(--border-09);
+    font-size: 12px;
+    color: var(--white-60);
+}
+
+.transaction_table tbody tr {
+    border-top: 1px solid var(--border-09);
+    border-bottom: 1px solid var(--border-09);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-100);
+}
+
+.transaction_table th,
+.transaction_table td {
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.amount_in {
+    color: var(--GreenSecondary-100);
+    font-weight: 500;
+}
+
+.amount_out {
+    color: var(--error-color);
+    font-weight: 500;
+}
