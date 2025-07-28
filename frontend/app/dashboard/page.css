@@ -30,13 +30,13 @@
 .total {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .left h1 {
     font-size: 40px;
     font-weight: 700;
-    color: #ADF151;
+    color: var(--Green--100);
 }
 
 
@@ -48,12 +48,12 @@
     gap: 5px;
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 
 }
 
 .percent {
-    color: #2ECC71;
+    color: var(--GreenSecondary-100);
     font-weight: bold;
     font-size: 14px;
     font-weight: 400;
@@ -62,7 +62,7 @@
 .arrow_icon {
     height: 20px;
     width: 20px;
-    color: #2ECC71;
+    color: var(--GreenSecondary-100);
 }
 
 
@@ -95,19 +95,19 @@
 .tier_label {
     font-weight: 400;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .tier_name {
     font-size: 24px;
     font-weight: 600;
-    color: #FFFFFFCC;
+    color: var(--white-100);
 }
 
 .tier_goal {
     font-size: 10px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .progress_bar_container {
@@ -121,8 +121,8 @@
 
 .progress_bar_fill {
     height: 100%;
-    background-color: #ADF151;
-    border-radius: 8px 0 0 8px;
+    background-color: var(--Green--100);
+    border-radius:  8px;
     transition: width 0.3s ease-in-out;
 }
 
@@ -130,18 +130,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #ADF151;
+    color: var(--Green--100);
 }
 
 .plant_tree p {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 
 }
 
 .plant_btn {
-    color: #FFFFFFCC;
+    color: var(--white-80);
     height: 36px;
     width: 195px;
     padding: 8px 16px;
@@ -177,20 +177,20 @@
 .card_title {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .card_value {
     font-size: 32px;
     font-weight: 700;
     font-weight: bold;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
 }
 
 .value_span {
     font-weight: 500;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 
 }
 
@@ -200,7 +200,7 @@
     align-items: center;
     font-size: 10px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
     gap: 4px;
 }
 
@@ -231,7 +231,7 @@
 .latest {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     line-height: 21px;
 }
 
@@ -255,18 +255,18 @@
 .verification {
     font-size: 16px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
     line-height: 24px;
 }
 
 .number {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
     font-size: 14px;
     font-weight: 400;
 }
 
 .issued {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
     font-size: 12px;
     font-weight: 400;
 }
@@ -275,12 +275,12 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
     margin-top: 10px;
 }
 
 .certifications_btn {
-    color: #FFFFFFCC;
+    color: var(--white-80);
     height: 36px;
     width: 212.5px;
     padding: 8px 16px;
@@ -312,16 +312,17 @@
 }
 
 .market {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
     font-size: 18px;
     font-weight: 500;
 }
 
 .market_value {
-    color: rgba(173, 241, 81, 1);
+    color: var(--Green--100);
     font-size: 18px;
     font-weight: 500;
 }
+
 .recharts-area-area {
-  filter: blur(4px);
+    filter: blur(4px);
 }

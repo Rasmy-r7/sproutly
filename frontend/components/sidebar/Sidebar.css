@@ -47,17 +47,17 @@
   height: 32px;
   transition: background 0.3s ease;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-60);
 }
 
 .sidebar_item:hover {
-  background-color: #CCF693;
+  background-color: rgb(204, 246, 147);
   color: black;
 }
 
 .sidebar_item.active {
   color: black;
-  background-color: #ADF151;
+  background-color: var(--Green--60);
   font-weight: 500;
 
 }

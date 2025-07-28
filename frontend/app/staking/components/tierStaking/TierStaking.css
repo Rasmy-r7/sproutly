@@ -1,0 +1,313 @@
+.tierstaking {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tierstaking__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1114px;
+    height: 74px;
+    gap: 24px;
+}
+
+.tierstaking__card {
+    width: 355.3px;
+    padding: 8px 7px;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.tierstaking__label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+.tierstaking__value {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tierstaking__highlight {
+    color: var(--Green--100);
+}
+
+
+.tierstaking__unit {
+    font-size: 12px;
+    margin-left: 4px;
+    color: var(--white-80);
+}
+
+
+
+/* stakeform__section */
+
+.stakeform {
+    height: 383px;
+    width: 1114px;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 24px;
+}
+
+.stakeform__left {
+    min-width: 811px;
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.stakeform__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stakeform__label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.stakeform__section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+
+}
+
+.stakeform__buttons {
+    display: flex;
+    align-items: center;
+    width: 298px;
+    height: 36px;
+    gap: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 44px;
+    padding: 4px;
+}
+
+.stakeform__button {
+    width: 145px;
+    height: 28px;
+    padding: 4px 8px;
+    border-radius: 51px;
+    background-color: transparent;
+    color: var(--white-60);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.stakeform__button_active {
+    background-color: var(--white-80);
+    color: rgba(35, 48, 16, 1);
+}
+
+.stakeform__input_group {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.stakeform__input {
+    width: 176px;
+    height: 90px;
+    padding: 8px 12px;
+    border-radius: 16px;
+    border: 1px solid var(--white-60);
+    background: transparent;
+}
+
+.stakeform__unit {
+    font-size: 16px;
+    color: var(--white-80);
+    font-weight: 700;
+}
+
+.stakeform__stake_button {
+    width: 205px;
+    height: 44px;
+    padding: 12px 16px;
+    border: none;
+    background-color: var(--Green--100);
+    color: rgba(35, 48, 16, 1);
+    font-weight: bold;
+    border-radius: 51px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stakeform__right {
+    min-width: 215px;
+    height: 78px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: transparent;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: start;
+}
+
+.stakeform__rightlabel {
+    color: var(--white-80);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.stakeform__available {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.stakeform__unit {
+    color: var(--white-80);
+}
+
+
+
+/* sapling_pool */
+
+
+.sapling_pool {
+    display: flex;
+    width: 1114px;
+    height: 476px;
+    gap: 24px;
+}
+
+.sapling_pool__cards {
+    min-width: 545px;
+    padding: 16px;
+    border-radius: 16px;
+    color: var(--white-100);
+    position: relative;
+}
+
+.sapling_pool__card {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 24px;
+    width: 291px;
+    height: 234px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+
+.sapling_pool__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.sapling_pool__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sapling_pool__info_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    width: 70.3px;
+    text-align: start;
+}
+
+.sapling_pool__label {
+    font-size: 9px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+.sapling_pool__value {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.sapling_pool__progress {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sapling_pool__progress_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sapling_pool__progress_bar {
+    background: rgba(65, 68, 66, 1);
+    border-radius: 100px;
+    height: 4px;
+    overflow: hidden;
+}
+
+.sapling_pool__progress_fill {
+    background: var(--Green--100);
+    height: 100%;
+    border-radius: 100px;
+}
+
+.sapling_pool__actions {
+    display: flex;
+    gap: 8px;
+}
+
+.sapling_pool__button {
+    width: 143px;
+    height: 36px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 51px;
+    background: var(--Green--100);
+    color: rgba(35, 48, 16, 1);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.sapling_pool__button_secondary {
+    padding: 8px 16px;
+    border-radius: 51px;
+    width: 92px;
+    padding: 8px 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: var(--white-80);
+    cursor: pointer;
+
+}

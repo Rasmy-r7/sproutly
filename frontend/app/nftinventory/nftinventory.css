@@ -30,11 +30,11 @@
     align-items: center;
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
 }
 
 .inventory_icon {
-    color: rgba(173, 241, 81, 1);
+    color: var(--Green--100);
     margin-right: 6px;
     font-size: 16px;
     display: flex;
@@ -43,7 +43,7 @@
 }
 
 .inventory_number {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
     font-size: 24px;
     font-weight: 700;
 }
@@ -51,7 +51,7 @@
 .inventory_unit {
     font-size: 12px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
 }
 
 .nftinventory_cart_bottom {
@@ -78,7 +78,7 @@
 }
 
 .filter_btn {
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--white-60);
     height: 22px;
     width: 75px;
     padding: 2px 8px;
@@ -99,12 +99,12 @@
     border-radius: 33px;
     font-size: 14px;
     background-color: transparent;
-    color: white;
+    color: var(--white-100);
     outline: none;
 }
 
 .nftsearch input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .search_icon {
@@ -112,7 +112,7 @@
     top: 50%;
     right: 12px;
     transform: translateY(-50%);
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     pointer-events: none;
     font-size: 18px;
 }
@@ -136,7 +136,7 @@
     width: 258.5px;
     height: 344.6666564941406px;
     border-radius: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--border-50);
 }
 
 .cartinfo_head {
@@ -205,13 +205,13 @@
 
 .paaa {
     margin-top: 5px;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
     font-size: 18px;
     font-weight: 500;
 }
 
 .pbbb {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     font-size: 14px;
     font-weight: 400;
 }
@@ -240,7 +240,7 @@
     border-radius: 31px;
     padding: 2px 8px;
     border: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     font-size: 12px;
     font-weight: 400;
 }

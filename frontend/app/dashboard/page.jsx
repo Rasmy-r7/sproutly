@@ -118,13 +118,13 @@ function Page() {
 
             <div className="card_footer">
               {card.change1 && (
-                <p style={{ color: "rgba(239, 83, 80, 1)" }}>
+                <p style={{ color: "var(--error-color)" }}>
                   {card.icon1 && <span style={{ fontSize: "18px" }}>{card.icon1}</span>}
                   {card.change1}
                 </p>
               )}
               {card.change2 && (
-                <p style={{ color: "rgba(46, 204, 113, 1)" }}>
+                <p style={{ color: "var(--GreenSecondary-100)" }}>
                   {card.icon2 && <span style={{ fontSize: "18px" }}>{card.icon2}</span>}
                   {card.change2}
                 </p>
@@ -132,11 +132,11 @@ function Page() {
               {(card.noteHighlight || card.note) && (
                 <p>
                   {card.noteHighlight && (
-                    <span style={{ color: "rgba(46, 204, 113, 1)" }}>{card.noteHighlight}</span>
+                    <span style={{ color: "var(--GreenSecondary-100)" }}>{card.noteHighlight}</span>
                   )}
                   {card.note && ` ${card.note}`}
                   {card.span3 && (
-                    <span style={{ color: "rgba(255, 160, 0, 1)" }}>{card.span3}</span>
+                    <span style={{ color: "var(--warning-color)" }}>{card.span3}</span>
                   )}
                 </p>
               )}
@@ -179,7 +179,7 @@ function Page() {
               </div>
             </div>
           </div>
-          <p className='ready'><span style={{ color: "rgba(46, 204, 113, 1)" }}>3 certificates</span> ready to generate!</p>
+          <p className='ready'><span style={{ color: "var( --GreenSecondary-100)" }}>3 certificates</span> ready to generate!</p>
           <button className='certifications_btn glass_card'>
             View all 58 Certifications
           </button>

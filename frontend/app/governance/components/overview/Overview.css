@@ -1,0 +1,388 @@
+/* overview_cards */
+.overview {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.overview_cards {
+    width: 1114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.overview_card {
+    width: 355.3px;
+    height: 112px;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+
+.overview_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+.overview_value {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.overview_unit {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+    color: var(--white-80);
+}
+
+.overview_description {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--white-60);
+}
+
+
+
+/* governance_section */
+
+/* Container */
+.governance_section {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    /* padding: 24px; */
+    max-width: 1114px;
+}
+
+/* Governance Privileges + Tier Card */
+.governance_privileges_wrapper {
+    display: flex;
+    width: 453px;
+    height: 209px;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+/* Governance Privileges Card */
+.governance_privileges_card {
+    flex: 1;
+    width: 257px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.governance_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.vote_weight_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.vote_weight_label {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+.vote_weight_value {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--Green--100);
+}
+
+.vote_description {
+    font-size: 14px;
+    color: var(--white-80);
+}
+
+.learn_more_button {
+    padding: 10px 16px;
+    background-color: transparent;
+    color: var(--white-80);
+    border: 1px solid var(--border-09);
+    border-radius: 33px;
+    font-weight: 500;
+    cursor: pointer;
+    /* transition: background 0.3s; */
+}
+
+/* .learn_more_button:hover {
+    background-color: var(--GreenSecondary-80);
+} */
+
+/* Tier Info Card */
+.current_tier_card {
+    border: 1px solid var(--border-09);
+    width: 148px;
+    height: 177px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.current_tier_content {
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(15px);
+    padding: 12px;
+    border-radius: 0px 0px 16px 16px;
+    height: 66px;
+    width: 100%;
+}
+
+.tier_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.tier_amount {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white-80);
+    margin-top: 4px;
+}
+
+/* Proposal Section */
+.proposal_submission_card {
+    width: 637px;
+    height: 209px;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.proposal_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.proposal_description {
+    font-size: 14px;
+    font-weight: 500;
+    width: 440px;
+    color: var(--white-80);
+}
+
+.proposal_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.create_proposal_button,
+.view_guidelines_button {
+    background-color: var(--white-25);
+    color: var(--white-80);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 58px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.create_proposal_button {
+    width: 190px;
+}
+
+.view_guidelines_button {
+    width: 309px;
+}
+
+
+
+/* proposal_card */
+.proposal_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 1114px;
+}
+
+.proposal_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 914px;
+}
+
+.proposal_header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.proposal_id {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--white-80);
+}
+
+.proposal_title_box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.proposal_title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white-100);
+}
+
+.voting_status {
+    padding: 2px 8px;
+    background-color: var(--GreenSecondary-100);
+    color: black;
+    border: none;
+    border-radius: 18px;
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+/* Description */
+.proposal_description {
+    font-size: 14px;
+    color: var(--white-80);
+    font-weight: 500;
+    width: 100%;
+}
+
+/* View Button */
+.view_proposal_btn {
+    width: 115px;
+    height: 18px;
+    padding: 2px 16px;
+    background-color: var(--white-25);
+    border: none;
+    color: var(--white-80);
+    border-radius: 58px;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* .view_proposal_btn:hover {
+    background-color: ;
+    color:;
+} */
+
+/* Vote Breakdown */
+/* .vote_breakdown {
+
+} */
+
+.vote_percentages {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.vote_option_like {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--white-80);
+}
+
+.vote_icon_like {
+    font-size: 24px;
+}
+
+.vote_value_like {
+    font-size: 14px;
+}
+
+
+.vote_option_dislike {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--white-60);
+
+}
+
+.vote_icon_dislike {
+    font-size: 24px;
+}
+
+.vote_value_dislike {
+    font-size: 14px;
+}
+
+.vote_progress_bar {
+    height: 4px;
+    width: 253px;
+    background-color: rgba(65, 68, 66, 1);
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.vote_progress_fill {
+    height: 100%;
+    border-radius: 100px;
+    background-color: var(--Green--100);
+}
+
+
+
+/* Left Voting Buttons */
+.vote_buttons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.vote_btn {
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 32px;
+
+}
+
+
+.like_btn {
+    border: 1px solid var(--GreenSecondary-100);
+    color: var(--GreenSecondary-100);
+}
+
+.dislike_btn {
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+}

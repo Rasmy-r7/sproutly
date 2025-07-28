@@ -21,7 +21,7 @@
 }
 
 .featured_trending p {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     font-size: 24px;
     font-weight: 700;
 }
@@ -78,7 +78,7 @@
 }
 
 .ft_redwood {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
     font-size: 18px;
     font-weight: 700;
 }
@@ -86,19 +86,19 @@
 .ft_current {
     font-size: 10px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
 }
 
 .ft_value {
     font-size: 16px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
 }
 
 .ft_speed {
     font-size: 16px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .ftendtime_btn {
@@ -116,13 +116,13 @@
     border-radius: 51px;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     font-size: 16px;
     font-weight: 700;
 }
 
 .endtime_btn_span {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .endtime_btn {
@@ -139,7 +139,7 @@
 
 .ftendtime_btn:hover .place_btn {
     display: inline-block;
-    background-color: rgba(173, 241, 81, 1);
+    background-color: var(--Green--100);
     color: rgba(35, 48, 16, 1);
 }
 
@@ -180,7 +180,7 @@
 
 .sortby_head label {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     font-weight: 500;
 }
 
@@ -190,7 +190,7 @@
     border-radius: 33px;
     width: 188px;
     height: 37px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--white-60);
 }
 
 .sortby_head select:focus {
@@ -237,14 +237,14 @@
     border-radius: 51px;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
     font-size: 16px;
     font-weight: 700;
 }
 
 
 .endtime_btn_span_filter {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .endtime_btn_filter {
@@ -267,7 +267,7 @@
 
 .ftendtime_btn_filter:hover .place_btn_filter {
     display: inline-block;
-    background-color: rgba(173, 241, 81, 1);
+    background-color: var(--Green--100);
     color: rgba(35, 48, 16, 1);
 }
 
@@ -288,13 +288,13 @@
 }
 
 .numfilter {
-    color: rgba(255, 255, 255, 1);
+    color: var(--white-100);
     font-size: 18px;
     font-weight: 700;
 }
 
 .numreset {
-    color: rgba(173, 241, 81, 1);
+    color: var(--Green--100);
     font-size: 18px;
     font-weight: 700;
 }
@@ -302,7 +302,7 @@
 .market_search {
     display: flex;
     align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--white-60);
     border-radius: 33px;
     padding: 8px 16px;
     width: 100%;
@@ -314,7 +314,7 @@
 }
 
 .market_search_input::placeholder {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
 }
 
 .market_search_input {
@@ -323,11 +323,11 @@
     flex: 1;
     font-size: 14px;
     background: transparent;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
 }
 
 .market_search_icon {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--white-60);
     font-size: 16px;
     cursor: pointer;
 }
@@ -358,7 +358,7 @@
     padding: 8px 16px;
     cursor: pointer;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--white-80);
 }
 
 
@@ -377,7 +377,7 @@
   padding:  12px 12px 12px 30px;
   font-size: 14px;
   margin-top: 10px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-60);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -387,13 +387,13 @@
 }
 
 .marketplace_filter_item.selected {
-  border: 1px solid rgba(255, 255, 255, 1); 
-  color:rgba(255, 255, 255, 1);
+  border: 1px solid var(--white-100); 
+  color:var(--white-100);
   background-color: rgba(255, 255, 255, 0.25);
 
 }
 
 .check_icon {
-  color: rgba(255, 255, 255, 1);
+  color: var(--white-100);
   font-size: 14px;
 }

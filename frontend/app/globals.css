@@ -1,6 +1,32 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --error-color: rgba(239, 83, 80, 1);
+  --warning-color: rgba(255, 160, 0, 1);
+
+  --btn-orange: rgba(255, 196, 97, 1);
+  --btn-pink: rgba(245, 148, 147, 1);
+  --btn-lightGreen: rgba(125, 223, 167, 1);
+
+  --white-100: rgba(255, 255, 255, 1);
+  --white-90: rgba(255, 255, 255, 0.9);
+  --white-80: rgba(255, 255, 255, 0.8);
+  --white-60: rgba(255, 255, 255, 0.6);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-25: rgba(255, 255, 255, 0.25);
+
+  --Green--100: rgba(173, 241, 81, 1);
+  --Green--80: rgba(173, 241, 81, 0.8);
+  --Green--60: rgba(173, 241, 81, 0.6);
+
+  --GreenSecondary-100: rgba(46, 204, 113, 1);
+  --GreenSecondary-80: rgba(46, 204, 113, 0.8);
+  --GreenSecondary-60: rgba(46, 204, 113, 0.6);
+
+  --border-50: rgba(255, 255, 255, 0.5);
+  --border-10: rgba(255, 255, 255, 0.1);
+  --border-09: rgba(255, 255, 255, 0.09);
 }
 
 /* .glass_card {
@@ -54,6 +80,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  user-select: none;
+
 }
 
 a {

@@ -1,0 +1,291 @@
+.membership_main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* current_tier */
+.current_tier {
+    width: 1114px;
+    height: 326px;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.current_tier_heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+/* Card container */
+.current_tier_card_container {
+    display: flex;
+    gap: 24px;
+}
+
+/* Tier card with background */
+.current_tier_card {
+    height: 238px;
+    width: 178.5px;
+    border-radius: 24px;
+    /* padding: 20px; */
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+
+}
+
+.current_tier_card_content {
+    width: 100%;
+    height: 66px;
+    padding: 12px;
+    border-radius: 0px 0px 24px 24px;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.current_tier_tier_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.current_tier_tier_amount {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+/* Benefits Section */
+.current_tier_benefits {
+    width: 469.49px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.current_tier_benefits_heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-80);
+}
+
+.current_tier_benefits_list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.current_tier_benefit_item {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.current_tier_benefit_icon {
+    color: var(--Green--100);
+    font-size: 16px;
+}
+
+.current_tier_benefit_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-100);
+}
+
+.current_tier_benefit_desc {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+/* Stake Section */
+.current_tier_stake_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    width: 322px;
+    height: 197px;
+}
+
+.current_tier_available_label {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--white-80);
+}
+
+.current_tier_available_amount {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--white-80);
+}
+
+.current_tier_stake_input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 261px;
+}
+
+.current_tier_stake_label {
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--white-80);
+}
+
+.current_tier_input {
+    padding: 8px 16px;
+    border: 1px solid var(--white-60);
+    border-radius: 33px;
+    background: transparent;
+    height: 37px;
+    width: 100%;
+}
+
+.current_tier_button {
+    padding: 12px 16px;
+    background-color: var(--Green--100);
+    color: rgba(35, 48, 16, 1);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    width: 205px;
+    border-radius: 51px;
+    cursor: pointer;
+}
+
+/* tier-wrapper  */
+
+.tier-wrapper {
+    position: relative;
+    padding: 16px;
+    border-radius: 16px;
+    height: 216px;
+    width: 1114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between ;
+}
+
+.progress-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.tier-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    z-index: 3;
+}
+
+
+.tier-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(251, 254, 246, 1);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-100);
+    font-weight: bold;
+    transition: background 0.3s ease, border 0.3s ease;
+}
+
+.tier-circle.reached {
+    background: rgba(251, 254, 246, 1);
+    border: 2px solid rgba(255, 255, 255, 0.09);
+    color: black;
+}
+
+.checkmark {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.tier-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: #ccc;
+    transition: color 0.3s ease;
+    width: 178.5px;
+    height: 62px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.tier-info.reached {
+    color: var(--Green--100);
+    border: 1px solid var(--Green--100);
+}
+
+.tier-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+}
+
+
+.tier-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tier-amount {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.progress-line {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background: #2a2a2a;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.progress-fill {
+    height: 100%;
+    background: rgb(181, 255, 0);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+    z-index: 2;
+}
+
+.current_value {
+    color: var(--Green--100);
+    background: transparent;
+    padding: 12px;
+    border: 1px solid var(--Green--100);
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 8px;
+}

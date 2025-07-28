@@ -10,7 +10,7 @@ import Membership from './components/membership/Membership';
 
 function page() {
 
-  const [activeBtn, setActiveBtn] = useState("Tree Staking")
+  const [activeBtn, setActiveBtn] = useState("Tier Staking")
 
   const renderActivePage = () => {
     switch (activeBtn) {
@@ -32,7 +32,8 @@ function page() {
       <PageHeader title="Staking" showSearch={false} />
       <div className='staking_filter_btn glass_card'>
         <div className='staking_button_group'>
-          <button className={`staking_btn ${activeBtn === "Tree Staking" ? "stackingActive" : ""}`} onClick={() => setActiveBtn("Tree Staking")}>Tree Staking</button>
+          <button className={`staking_btn ${activeBtn === "Tree Staking" ? "stackingActive" : ""}`}
+            onClick={() => setActiveBtn("Tree Staking")}>Tree Staking</button>
           <button className={`staking_btn ${activeBtn === "Single-Sided Staking" ? " stackingActive" : ""}`} onClick={() => setActiveBtn("Single-Sided Staking")}>Single-Sided Staking</button>
           <button className={`staking_btn ${activeBtn === "Tier Staking" ? " stackingActive" : ""}`} onClick={() => setActiveBtn("Tier Staking")}>Tier Staking</button>
           <button className={`staking_btn ${activeBtn === "Membership" ? " stackingActive" : ""}`} onClick={() => setActiveBtn("Membership")}>Membership</button>

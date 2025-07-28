@@ -13,6 +13,8 @@ import { IoGift } from "react-icons/io5";
 import { PiGavelFill } from "react-icons/pi";
 import { RiTreeFill } from "react-icons/ri";
 import { RiNftFill } from "react-icons/ri";
+import { RiSwapBoxFill } from "react-icons/ri";
+
 
 import "./Sidebar.css";
 import Image from 'next/image';
@@ -24,6 +26,7 @@ const sidebarFallback = [
     { name: "Staking", icon: FaHandHolding, href: "/staking" },
     { name: "Market Place", icon: IoBagHandle, href: "/marketplace" },
     { name: "Governance (DAO)", icon: PiGavelFill, href: "/governance" },
+    { name: "Swap Portal", icon: RiSwapBoxFill, href: "/swapportal" },
     { name: "CO₂ Management", icon: MdCo2, href: "/copools" },
     { name: "Referral Program", icon: IoGift, href: "/referralprogram" },
     { name: "Leaderboard", icon: BsBarChartFill, href: "/leaderboard" },
