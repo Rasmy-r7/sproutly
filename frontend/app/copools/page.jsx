@@ -10,6 +10,8 @@ import { RiNftFill } from "react-icons/ri";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMdArrowDropup } from "react-icons/io";
 import { VscArrowBoth } from "react-icons/vsc";
+import { CgCross } from "react-icons/cg";
+
 
 import Image from 'next/image';
 
@@ -107,7 +109,7 @@ const page = () => {
 
   return (
     <div className='copools_main'>
-      <PageHeader title="CO₂ Management" showSearch={false} />
+      <PageHeader title="CO₂ Management" showSearch={false} showButton={false} />
       <div className='certificates'>
         <div className='mint_carbon glass_card'>
 
@@ -125,10 +127,8 @@ const page = () => {
 
           <div className='mint_carbon_burn'>
             <p className='burn_amount'>Amount of $aCO2 to Burn</p>
-            <div className='mint_carbon_input'>
-              <input type="text" placeholder='Text input' />
-              <button>Burn</button>
-            </div>
+            <input type="text" placeholder='Text input' />
+            <button className='burn_btn'>Burn</button>
             <p className='burn_info'>You will receive 1 Certificate NFT and a PDF</p>
           </div>
         </div>
@@ -281,6 +281,8 @@ const page = () => {
               </div>
             ))}
           </div>
+
+          
           {/* right down */}
           <div className="trade_container glass_card">
 

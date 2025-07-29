@@ -297,6 +297,7 @@
     color: var(--Green--100);
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .market_search {

@@ -29,7 +29,7 @@ function page() {
 
   return (
     <div className='main_staking'>
-      <PageHeader title="Staking" showSearch={false} />
+      <PageHeader title="Staking" showSearch={false} showButton={false} />
       <div className='staking_filter_btn glass_card'>
         <div className='staking_button_group'>
           <button className={`staking_btn ${activeBtn === "Tree Staking" ? "stackingActive" : ""}`}

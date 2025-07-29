@@ -1,0 +1,136 @@
+.proposals_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.proposals_wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.proposals_section {
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.proposals_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-100);
+}
+
+.proposals_controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.proposals_search {
+    position: relative;
+    width: 297px;
+}
+
+.proposals_input {
+    width: 100%;
+    height: 37px;
+    background: transparent;
+    padding: 8px 16px;
+    border-radius: 33px;
+    border: 1px solid var(--border-50);
+    font-size: 14px;
+}
+
+.proposals_search_icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white-80);
+}
+
+.proposals_filters {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.proposals_select {
+    padding: 8px 16px;
+    border-radius: 33px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: var(--white-80);
+    background: transparent;
+}
+
+.proposals_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.proposals_table thead tr,
+.proposals_table tr {
+    border-top: 1px solid var(--border-09);
+    border-bottom: 1px solid var(--border-09);
+
+}
+
+.proposals_table th,
+.proposals_table td {
+    padding: 8px 16px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.proposals_table th {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white-60);
+}
+
+.proposals_table td {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-100);
+}
+
+.status_cell.active .status_btn {
+    display: flex;
+    align-items: center;
+    padding: 2px 8px;
+    background: transparent;
+    border-radius: 16px;
+    border: 1px solid var(--GreenSecondary-100);
+    color: var(--GreenSecondary-100);
+
+
+}
+
+.status_cell.closed .status_btn {
+    color: var(--error-color);
+    padding: 2px 8px;
+    background: transparent;
+    border-radius: 16px;
+    border: 1px solid var(--error-color);
+}
+
+.outcome_cell.pass {
+    color: var(--GreenSecondary-100);
+}
+
+.outcome_cell.fail {
+    color: var(--error-color);
+}
+
+.outcome_cell.n\/a {
+    color: var(--white-80);
+}

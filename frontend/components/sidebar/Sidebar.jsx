@@ -14,6 +14,8 @@ import { PiGavelFill } from "react-icons/pi";
 import { RiTreeFill } from "react-icons/ri";
 import { RiNftFill } from "react-icons/ri";
 import { RiSwapBoxFill } from "react-icons/ri";
+import { FaWallet } from "react-icons/fa";
+
 
 
 import "./Sidebar.css";
@@ -55,6 +57,13 @@ function Sidebar() {
                     <p>Rasmy</p>
 
                 </div>
+
+                <button className='connect_wallet_btn'>
+                    <FaWallet className='wallet_icon' />
+                    Connect Wallet
+                </button>
+
+
                 <div className='sidebarFallback'>
                     {sidebarFallback.map((item) => {
                         const Icon = item.icon;
